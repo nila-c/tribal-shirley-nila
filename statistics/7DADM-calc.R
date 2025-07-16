@@ -5,8 +5,8 @@ library(here)
 here::i_am("statistics/7DADM-calc.R")
 
 # loading data -------------------
-ho_tqwd <- read_csv(here("Hoh_Data", "Hoh_TWQD_DBO.csv"), na = "NULL")
-ho_wqts <- readRDS(here("Hoh_Data", "ho_wqts.rds"))
+ho_tqwd <- read_csv(here("Hoh_Data", "hoh_tqwd.csv"), na = "NULL")
+ho_wqts <- readRDS(here("Hoh_Data", "hoh_wqts.rds"))
 
 # I'm not super sure which one is the actual SiteName column, so I'll use
 # MONLOC_AB instead since that seems like the best bet
